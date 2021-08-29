@@ -11,11 +11,13 @@ The gang of Four: https://www.dofactory.com/net/design-patterns
 ### Facory ###
 
 ![picture](https://github.com/ymwjbxxq/factory-pattern-with-strategy-pattern/blob/main/factory.png)
+
 A factory pattern is a creational pattern.
 
 ### Strategy ###
 
 ![picture](https://github.com/ymwjbxxq/factory-pattern-with-strategy-pattern/blob/main/strategy.png)
+
 A strategy pattern is a behavioural pattern.
 
 ### So, What? ###
