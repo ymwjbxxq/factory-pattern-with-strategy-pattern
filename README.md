@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Software_design_pattern
 
 The gang of Four: https://www.dofactory.com/net/design-patterns
 
-### Facory ###
+### Factory ###
 
 ![picture](https://github.com/ymwjbxxq/factory-pattern-with-strategy-pattern/blob/main/factory.png)
 
@@ -45,7 +45,15 @@ Back to the code, we could have this:
 
 And most of the time, I hear, but this is simpler bla bla bla, and it could be, but you should add an option for each behaviour or type and at the end of the day, without reference to other principles, you could end with a monolith method that does multiple things.
 
-### SUM UP ###
+### About the code ###
+
+In this repo, I kept things as more straightforward as possible. The entry point is hander.ts (Lambda function), which generates a factory based on the input. The factory exposes two methods:
+* generate()
+* upload()
+
+Inside [concreateFactory2](https://github.com/ymwjbxxq/factory-pattern-with-strategy-pattern/blob/main/src/factories/factory2/concreteFactory2.ts), there is also the implementation of a strategy based on some condition.
+
+### Sum up ###
 
 Design patterns are considered the foundations of software design, and it does not matter what the background we are coming from is.
 For example, suppose we are building any application that is not a PoC. In that case, it is handy to be aware of their existence because they could help us write a more readable and maintainable application.
