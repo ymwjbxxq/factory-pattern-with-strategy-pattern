@@ -7,5 +7,3 @@ export const handler = async (request: any): Promise<any> => {
   await myFactory.generate();
   await myFactory.upload();
 };
-
-factory-pattern-with-strategy-pattern
