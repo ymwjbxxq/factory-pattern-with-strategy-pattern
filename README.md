@@ -26,12 +26,11 @@ For someone, especially people from a scripting background (at least this is wha
 
 I usually end up explaining the code with associations to step out from the IT world.
 
-For example:
-We have multiple types of cars
+For example, we have multiple types of cars
 * Hybrid
 * Electric
 
-They are a type of CAR. The factory will return the actual type Hybrid or Electric, and they could have different implementation for the .engine().
+They are a type of CAR. The factory will return the concrete type Hybrid or Electric, and they could have different implementation for the .engine().
 
 If we stay with the car example, we want to change their behaviour based on the country injecting a strategy, for example:
 * Left-hand drive cars
